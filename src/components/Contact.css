@@ -39,11 +39,34 @@
   .modern-submit:hover {
     background-color: #0056b3;
   }
-
+  .contact-container {
+    position: relative;
+  }
+  
+  .success-modal {
+    position: absolute;
+    top: 0;
+    left: calc(100% + -700px); /* Ajustez la distance horizontale selon vos besoins */
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
   @media screen and (max-width: 600px) {
     .modern-input,
     .modern-textarea {
       width: 100%; /* Pour s'adapter à la largeur de l'écran sur les appareils mobiles */
       margin-right: 0; /* Supprimer la marge à droite */
+    }
+    .success-modal {
+      left: calc(100% + -200px); /* Ajustez la distance horizontale pour les appareils mobiles */
+      transform: translate(-50%, -50%);
+      width: 80%; /* Ajustez la largeur selon vos besoins */
+      max-width: 300px; /* Ajustez la largeur maximale selon vos besoins */
     }
   }

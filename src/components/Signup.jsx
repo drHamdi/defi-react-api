@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Signup.css'
 
 import formation from '../assets/formation.png'
@@ -19,7 +20,7 @@ const Signup = () => {
                         dispensés par des experts reconnus. Inscrivez-vous dès maintenant et transformez votre avenir professionnel avec notre soutien exceptionnel!</p>
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />
-                        <button className='btn'>Reserver Votre Place</button>
+                        <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 

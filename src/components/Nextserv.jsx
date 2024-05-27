@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Nextser.css'
 import presentation from '../assets/Services/s.presentation.jpg'
 import comptabilité from '../assets/Services/s.comptabilité.png'
@@ -68,8 +69,9 @@ const Nextserv = () => {
             <p className='pilote'>- Obtention des attestations de travail pour les expatriés</p>
             
         </div>
-
-
+                              
+        <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
+                 
     </div>
     
     

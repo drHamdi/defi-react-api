@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Formation.css'
 import fcompta from '../assets/comptabilitée.jpg'
 import fconception from '../assets/conception.jpg'
@@ -22,7 +23,7 @@ const Formaion = () => {
                    
                     <div className='input-container'>
                         
-                        <button className='btn'>Commencer</button>
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 
@@ -50,7 +51,7 @@ const Formaion = () => {
                    
                     <div className='input-container'>
                         
-                        <button className='btn'>Commencer</button>
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 
@@ -77,7 +78,7 @@ const Formaion = () => {
                    
                     <div className='input-container'>
                         
-                        <button className='btn'>Commencer</button>
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 
@@ -105,7 +106,7 @@ const Formaion = () => {
                    
                     <div className='input-container'>
                         
-                        <button className='btn'>Commencer</button>
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 
@@ -132,7 +133,7 @@ const Formaion = () => {
                    
                     <div className='input-container'>
                         
-                        <button className='btn'>Commencer</button>
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                     </div>
                 </div>
 

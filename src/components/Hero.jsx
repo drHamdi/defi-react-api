@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Hero.css'
 import Crypto from '../assets/hero.png'
 
@@ -15,7 +16,7 @@ const Hero = () => {
                    
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />
-                        <button className='btn'>Consultation Gratuit</button>
+                        <a href='/contact'> <Link to='/contact'><button className='btn'>Consultation Gratuit</button></Link></a>
                     </div>
                 </div>
 

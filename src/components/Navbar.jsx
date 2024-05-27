@@ -27,11 +27,11 @@ const handleClick = () => setClick(!click)
                         <a href='/formation'><Link to="/formation" ></Link> Formation</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='/contact'> <Link to='/contact'></Link> Contact</a>
                     </li>
                 </ul>
                 <div className='btn-group'>
-                    <button className='btn'>Commencer</button>
+                <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
                 </div>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={20} style={{color: '#333'}}/>) : (<FaBars size={20} style={{color: '#333'}} />)}

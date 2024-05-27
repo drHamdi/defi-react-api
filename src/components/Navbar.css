@@ -81,4 +81,8 @@
     .nav-menu a {
         font-size: 1.2rem;
     }
+    
+    .btn-group {
+        display: none;
+    }
 }
