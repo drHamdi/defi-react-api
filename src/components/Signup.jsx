@@ -1,7 +1,7 @@
 import React from 'react'
 import './Signup.css'
 
-import Crypto from '../assets/trade.png'
+import formation from '../assets/formation.png'
 
 const Signup = () => {
     return (
@@ -9,16 +9,17 @@ const Signup = () => {
             <div className='container'>
                 {/* left */}
                 <div className='left'>
-                    <img src={Crypto} alt='' />
+                    <img src={formation} alt='' />
                 </div>
 
                 {/* right */}
                 <div className='right'>
-                    <h2>Earn passive income with crypto.</h2>
-                    <p>Earn up to 12% annual rewards on 30+ digital assets. Simply hold your assets in the app to automatically earn rewards at the end of each month with no lockups and no limits.</p>
+                    <h2>Découvrez notre formation éducative innovante</h2>
+                    <p> Conçue pour répondre aux besoins du marché actuel. Enrichissez vos compétences et boostez votre carrière grâce à nos programmes personnalisés et interactifs, 
+                        dispensés par des experts reconnus. Inscrivez-vous dès maintenant et transformez votre avenir professionnel avec notre soutien exceptionnel!</p>
                     <div className='input-container'>
                         <input type='email' placeholder='Enter your email' />
-                        <button className='btn'>Learn More</button>
+                        <button className='btn'>Reserver Votre Place</button>
                     </div>
                 </div>
 

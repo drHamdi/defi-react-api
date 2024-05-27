@@ -1,18 +1,24 @@
 import React from 'react'
-import Featured from './components/Featured'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import Signup from './components/Signup'
-import Footer from './components/Footer'
+import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
+import Home from './components/Home'
+import Services from './Routes/Services';
+import FormPage from './Routes/formationPage'
+
+
+
+
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Featured />
-      <Signup />
-      <Footer />
+    <> 
+    <Router >
+       <Routes>
+        <Route path='/' element={<Home />} />
+         <Route path='/services' element={< Services />} />
+         <Route path='/formation' element={< FormPage />} />
+       </Routes>
+    </Router>
+      
     </>
   );
 }

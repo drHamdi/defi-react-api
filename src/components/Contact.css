@@ -1,0 +1,49 @@
+.modern-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .modern-label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .modern-input,
+  .modern-textarea {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .modern-textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .modern-submit {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modern-submit:hover {
+    background-color: #0056b3;
+  }
+
+  @media screen and (max-width: 600px) {
+    .modern-input,
+    .modern-textarea {
+      width: 100%; /* Pour s'adapter à la largeur de l'écran sur les appareils mobiles */
+      margin-right: 0; /* Supprimer la marge à droite */
+    }
+  }

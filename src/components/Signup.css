@@ -11,7 +11,8 @@
 }
 
 .signup img {
-    width: 300px;
+    width: 500px;
+    margin-right: 130px;
 }
 
 .signup img:hover {
@@ -26,5 +27,9 @@
 @media screen and (max-width:940px) {
     .signup .container {
         grid-template-columns: 1fr;
+    }
+    .signup img {
+        width: 300px;
+        margin-right: auto;
     }
 }

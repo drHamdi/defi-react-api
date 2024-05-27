@@ -30,26 +30,7 @@ const Featured = () => {
 
                 {/* Right */}
 
-                <div className='right'>
-                    <div className='card'>
-                    <img className='img' src={busnis} />
-                    </div>
-                    <div className='card'>
-                    <img className='img' src={consulting} />
-                    </div>
-                    <div className='card'>
-                    <img className='img' src={entre} />
-                    </div>
-                    <div className='card'>
-                    <img className='img' src={maleya} />
-                    </div>
-                    <div className='card'>
-                    <img className='img' src={plan} />
-                    </div>
-                    <div className='card'>
-                    <img className='img' src={presentation} />
-                    </div>
-                </div>
+                
             </div>
 
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import Crypto from '../assets/Services/s.presentation.jpg'
+import Crypto from '../assets/hero.png'
 
 const Hero = () => {
     return (

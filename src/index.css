@@ -76,6 +76,9 @@ p {
 
 .btn:hover {
   box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+  background-color: white;
+  color: #118c4f;
+  transition: background-color 0.21s;
 }
 
 input {
