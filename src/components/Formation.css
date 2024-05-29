@@ -29,7 +29,6 @@
 
 .hero .img-container {
     width: 100%;
-   
     display: flex;
 }
 
@@ -44,4 +43,8 @@
         grid-template-columns: 1fr;
         margin: 1rem 0;
     }
+    .hero .container .right{
+        display: inline;
+    }
+    
 }

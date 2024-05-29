@@ -6,6 +6,7 @@ import fconception from '../assets/conception.jpg'
 import fcréation from '../assets/création dentreprise.jpg'
 import fdesign from '../assets/desing graphic.jpg'
 import fassitance from '../assets/fassistance.jpg'
+import excel from  '../assets/excel.jpg'
 
 const Formaion = () => {
   return (
@@ -144,11 +145,35 @@ const Formaion = () => {
                         <img src={fassitance} alt=''/>
                     </div>
                 </div>
+                
+                
             </div>
+            
         </div>
-        </div>
+        <div className='container'>
+
+{/* Left Side */}
+<div className='left'>
+    <p className='pilote'>Maîtriser la comptabilité avancée est un atout stratégique</p>
+    <h1 className='pilote'>EXCEL AVANCÉ</h1>
+    <p className='pilote'>Boostez votre carrière avec notre formation Excel avancée ! Maîtrisez les fonctionnalités avancées et devenez un expert en analyses de données.
+     Inscrivez-vous dès maintenant et transformez votre efficacité professionnelle !</p>
+   
+    <div className='input-container'>
+        
+    <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer</button></Link></a>
+    </div>
+</div>
 
 
+{/* Right Side */}
+<div className='right'>
+    <div className='img-container'>
+        <img src={excel} alt=''/>
+    </div>
+</div>
+</div>
+        </div>
 
   )
 }

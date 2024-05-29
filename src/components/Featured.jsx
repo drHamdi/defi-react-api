@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Crypto from '../assets/Services/s.consulting.jpg'
 
 
 
@@ -13,23 +14,27 @@ const Featured = () => {
    
 
     return (
-        <div className='featured'>
-            <div className='container'>
-                {/* Left */}
-                <div className='left'>
-                    <h2>Votre avenir entrepreneurial</h2>
-                    <p>L'esprit entrepreneurial, consiste à identifier des opportunités de marché et à transformer des idées innovantes en entreprises rentables.
-                         Les entrepreneurs commerciaux se concentrent sur la satisfaction des besoins des clients tout en maximisant les profits. Leur capacité à élaborer des stratégies de
-                          vente efficaces et à s'adapter aux dynamiques du marché est cruciale pour leur succès.</p>
-                          <a href='/contact'> <Link to='/contact'><button className='btn'>Contactez-Nous</button></Link></a>
+        <div className='signup'>
+        <div className='container'>
+            {/* left */}
+            <div className='left'>
+                <img src={Crypto} alt='' />
+            </div>
+
+            {/* right */}
+            <div className='right'>
+                <h2>Boostez votre entreprise avec notre service de comptabilité et de conception de projet</h2>
+                <p>Nous offrons des solutions personnalisées pour optimiser vos finances et réaliser vos projets avec succès. Contactez-nous dès aujourd'hui pour transformer vos idées en réalité rentable.</p>
+                <div className='input-container'>
+                    <input type='email' placeholder='Enter your email' />
+                    <a href='/contact'> <Link to='/contact'><button className='btn'>Contact</button></Link></a>
                 </div>
-
-                {/* Right */}
-
-                
             </div>
 
         </div>
+    </div>
+
+        
     )
 }
 

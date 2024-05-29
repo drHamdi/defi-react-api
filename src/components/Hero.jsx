@@ -11,7 +11,7 @@ const Hero = () => {
                 {/* Left Side */}
                 <div className='left'>
                     <p>Établissement des états financiers et audit</p>
-                    <h1>ÉLABORATION D'UN BUSINESS PLAN SERVICE DE COMPTABILITÉ ET FISCALITÉ</h1>
+                    <h1>ÉLABORATION D'UN BUSINESS PLAN SERVICE DE COMPTABILITÉ ET FISCALITÉ ET FORMATION</h1>
                     <p>Avec notre équipe dévouée de professionnels, nous vous aiderons à naviguer dans les complexités de la gestion financière, afin que vous puissiez vous concentrer sur ce que vous faites le mieux : développer votre entreprise ! Contactez-nous dès aujourd'hui pour planifier une consultation et transformer vos objectifs financiers en réalité</p>
                    
                     <div className='input-container'>

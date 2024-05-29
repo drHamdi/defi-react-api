@@ -160,3 +160,6 @@
     width: 1.25rem; /* Corresponds to w-5 */
     margin-left: 0.5rem;
 }
+.mobileprim {
+    display: none;
+}

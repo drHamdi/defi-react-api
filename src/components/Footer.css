@@ -30,12 +30,13 @@
     color: #303030;
     margin-right: 4px;
 }
-.logo {
+.logoo {
     display: flex;
     align-items: center;
 }
-.logo img {
-    width:80px;
+.logoo img {
+    margin-top: 40px;
+    width:400px;
     height: auto;
 }
 

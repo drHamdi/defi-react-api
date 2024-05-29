@@ -1,73 +1,64 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './services.css'
+import Imgserv from '../assets/Services/s.consulting.jpg'
 
 const services = () => {
   return (
     <div className='pricing'>
     <div className='container'>
-        <div className='top-content'>
-            <div>
-                <h2>Tout ce dont vous avez besoin pour <span>Nos services</span></h2>
-                <h3> 1 - Comptabilité & Finance :  </h3>
-            </div>
-            <div className=''>
+        <div className='bottom-content'>
+        </div>
+        <div className='testimonials' id='testimonials'>
+    <div className='container'>
+        <h2 className='pilote'>SERVICE DE COMPTABILITÉ ET FISCALITÉ</h2>
+        <span className='line'></span>
+        <div className='content'>
+            <div className='card pilote'>
+            
+        <p ><span>Service Comptabilité</span></p>
+        <p>-Assistance pour les dossiers de crédits bancaires</p>
+        <p>-Organisation et mise en place de procédures</p>
+        <p>-Evaluation d’entreprises</p>
+        <p>-Fusion/Scission d’entreprises</p>
+        <p>-Commissariat aux comptes</p>
+        <p>-Audit et due diligence</p>
+        <p>-Assistance pour les dossiers de crédits bancaires</p>
+        <p>-Organisation et mise en place de procédures</p>
+        <p>-Evaluation d’entreprises</p>
+        <p>-Fusion/Scission d’entreprises</p>
+            
+
+
+                
+                
                 
             </div>
+            <div className='card-right'>
+            <div className='card pilote'>
+            <p>- Tenue de la comptabilité générale </p>
+            <p>- Tenue des livres comptables légaux </p>
+            <p>- Tenue de la comptabilité analytique </p>
+            <p>- Etablissement des états financiers </p>
+            <p>- Commissariat aux comptes</p>
+            <p>- Audit et due diligence</p>
+             </div>
+            </div>
+            <div className='card pilote'>
+            <p ><span>Service Fiscalité</span></p>
+                 <p>-Accompagnement des sociétés en matière de respect du Droit Fiscal Tunisien</p>
+                 <p>-Assistance en matière de respect des conventions fiscales internationales</p>
+                 <p>-Etablissement des diverses déclarations fiscales</p>
+                 <p>-Optimisation du résultat fiscal</p>
+                 <p>-Assistance en cas de contrôle de l’administration fiscale</p>
+                 <p>-Audit de la situation fiscale</p>
         </div>
-        <div className='bottom-content'>
-            <div className=''>
-                <p><span>Votre Demande et Besoin</span></p>
-                <h3>C'est Notre Performance</h3>
-                <p>Découvrez l'excellence avec notre cabinet de comptabilité, où précision et fiabilité sont au cœur de nos services.
-                     Que vous soyez une PME ou une grande entreprise, nous vous offrons des solutions personnalisées pour optimiser votre fiscalité et simplifier votre gestion financière.
-                      Faites confiance à nos experts pour piloter votre croissance en toute sérénité.</p>
-            </div>
-            <div>
                 <div>
-                    <p className='pilote'>Assistance et supervision comptable .</p>
                 </div>
-                <div>
-                    <p className='pilote'>Audit et due diligence .</p>
-                </div>
-                <div>
-                    <p className='pilote'>Assistance pour les dossiers de crédits bancaires.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Commissariat aux comptes.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Etablissement des états financiers.</p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <p className='pilote'>Elaboration de Business plan.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Evaluation d’entreprises.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Fusion/Scission d’entreprises.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Organisation et mise en place de procédures.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Tenue de la comptabilité générale.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Tenue de la comptabilité analytique.</p>
-                </div>
-                <div>
-                    <p className='pilote'>Tenue des livres comptables légaux.</p>
-                </div>
-            </div>
         </div>
-        <a href='/contact'> <Link to='/contact'><button className='btn'>Commencer aujourd'hui</button></Link></a>
-        
     </div>
-    
+</div>
+    </div>
 </div>
 )
 }

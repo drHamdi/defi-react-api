@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaFacebook, FaInstagram } from 'react-icons/fa'
 import { MdCastForEducation } from "react-icons/md";
-import logo from '../assets/logoo.png'
+import logo from '../assets/logo.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -10,8 +10,8 @@ const Footer = () => {
             <div className='container'>
                 <div className='col col-1'>
 
-                <div className='logo'>
-                     <img src={logo} alt='logo' />
+                <div className='logoo'>
+                     <img className='pilote' src={logo} alt='logo' />
                 </div>
                 </div>
                 <div className='col'>
@@ -40,6 +40,7 @@ const Footer = () => {
                         <a className='pilote' href='/'>Commissariat aux comptes</a>
                 </div>
                 <div className='col'>
+                    
                     <h5 className='pilote'>Social</h5>
                     <span className='bar'> </span>
                         <a className='pilote' target='blank' href='https://www.facebook.com/Khedhriconsulting'><FaFacebook className='icon'/></a>

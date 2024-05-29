@@ -8,18 +8,22 @@ import Featured from './Featured'
 import Footer from './Footer'
 import About from './About'
 import Contact from './Contact'
+import Prima from './Prima'
+import Testimonial from './Testimonial'
 
 
 const Home = () => {
   return (
     <>
       < Navbar />
-      < Hero />
-      < Services />
+      < Testimonial />
+      < Prima />
       < Signup />
       <About />
       < Featured />
       < Contact />
+      
+      
       < Footer />
     </>
   )

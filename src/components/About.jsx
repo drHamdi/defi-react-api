@@ -14,11 +14,11 @@ const About = () => {
     
     <div class='content'>
         <div class='text-container'>
-            <h2 class='section-title'>Support</h2>
-            <h3 class='section-subtitle'>Trouver la bonne équipe</h3>
-            <p class='section-text'>Rejoignez-nous et trouvez la bonne équipe pour atteindre vos objectifs! Avec notre réseau dynamique de professionnels passionnés,
-            bénéficiez d'un soutien inégalé, d'opportunités de croissance et de succès partagé. Ne manquez pas cette chance de faire partie d'une communauté qui valorise votre potentiel 
-            et stimule votre progression. Ensemble, nous réussirons!</p>
+            <h2 class='section-title pilote'>Support</h2>
+            <h3 class='section-subtitle pilote'>Trouver la bonne équipe</h3>
+            <p class='section-text pilote'>Rejoignez-nous et trouvez la bonne équipe pour atteindre vos objectifs! Avec notre réseau dynamique de professionnels passionnés,
+            bénéficiez d'un soutien inégalé, d'opportunités de croissance et de succès partagé. <span className='mobileprim'> Ne manquez pas cette chance de faire partie d'une communauté qui valorise votre potentiel 
+            et stimule votre progression. Ensemble, nous réussirons!</span> </p>
         </div>
 
         <div class='card-grid'>
@@ -70,6 +70,9 @@ const About = () => {
                     </div>
                     <div className='formation'>
                     <h5 className='pilote'> - Graphic Design</h5>
+                    </div>
+                    <div className='formation'>
+                    <h5 className='pilote'> - Assitance De Direction</h5>
                     </div>
 
                     
